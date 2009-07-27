@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		282CCBFE0DB6C98000C4EA27 /* BusListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* BusListView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		4C3BD0BC100FFF3C00543C08 /* TimepointEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BD0BB100FFF3C00543C08 /* TimepointEvent.m */; };
+		4CBE6DAF1006B38F007C26A4 /* mapviewicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBE6DAC1006B38F007C26A4 /* mapviewicon.png */; };
+		4CBE6DB01006B38F007C26A4 /* timepointicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBE6DAD1006B38F007C26A4 /* timepointicon.png */; };
+		4CBE6DB11006B38F007C26A4 /* buslisticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBE6DAE1006B38F007C26A4 /* buslisticon.png */; };
+		4CBE6E131006C133007C26A4 /* LocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE6E0E1006C133007C26A4 /* LocationInfo.m */; };
+		4CBE6E141006C133007C26A4 /* Timepoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE6E101006C133007C26A4 /* Timepoint.m */; };
+		4CBE6E151006C133007C26A4 /* BusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE6E121006C133007C26A4 /* BusInfo.m */; };
+		4CBE6E191006C152007C26A4 /* BGAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE6E181006C152007C26A4 /* BGAnnotationView.m */; };
+		4CBE6E241006C192007C26A4 /* timepoints.dat in Resources */ = {isa = PBXBuildFile; fileRef = 4CBE6E231006C192007C26A4 /* timepoints.dat */; };
+		4CBE6E481006C1C6007C26A4 /* libSoapSupportLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE6E441006C1C6007C26A4 /* libSoapSupportLib.a */; };
+		4CBE6E491006C1C6007C26A4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE6E451006C1C6007C26A4 /* MapKit.framework */; };
+		4CBE6E4B1006C1C6007C26A4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE6E471006C1C6007C26A4 /* CoreLocation.framework */; };
+		4CBE718F100A4C39007C26A4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE718B100A4C39007C26A4 /* MapViewController.m */; };
+		4CBE7190100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE718E100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.m */; };
+		4CBE71BD100A4EB4007C26A4 /* BusInfoCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE71BC100A4EB4007C26A4 /* BusInfoCollector.m */; };
+		4CBE7211100AEEE8007C26A4 /* BGTimepointAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE7210100AEEE8007C26A4 /* BGTimepointAnnotationView.m */; };
+		4CC844F11016603300BAB98B /* bus_with_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC844F01016603300BAB98B /* bus_with_dot.png */; };
+		4CC8490B101A227E00BAB98B /* DefaultsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8490A101A227E00BAB98B /* DefaultsCategory.m */; };
+		4CC84916101A287200BAB98B /* MRCoordinateRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC84915101A287200BAB98B /* MRCoordinateRegion.m */; };
+		4CCEF8FE101A97DE00EEBB32 /* BusListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEF8FD101A97DE00EEBB32 /* BusListViewController.m */; };
+		4CCEF988101BAE2500EEBB32 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEF987101BAE2500EEBB32 /* MapView.xib */; };
+		4CCEFAB8101CFC6600EEBB32 /* FavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEFAB6101CFC6600EEBB32 /* FavoritesController.m */; };
+		4CCEFAB9101CFC6600EEBB32 /* FavoritesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEFAB7101CFC6600EEBB32 /* FavoritesController.xib */; };
+		4CCEFAD9101D25DB00EEBB32 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEFAD8101D25DB00EEBB32 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* BusDetector-Seattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusDetector-Seattle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282CCBFD0DB6C98000C4EA27 /* BusListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusListView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* BusDetector_Seattle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusDetector_Seattle_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C3BD0BA100FFF3C00543C08 /* TimepointEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimepointEvent.h; sourceTree = "<group>"; };
+		4C3BD0BB100FFF3C00543C08 /* TimepointEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimepointEvent.m; sourceTree = "<group>"; };
+		4CBE6DAC1006B38F007C26A4 /* mapviewicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapviewicon.png; path = art/mapviewicon.png; sourceTree = "<group>"; };
+		4CBE6DAD1006B38F007C26A4 /* timepointicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timepointicon.png; path = art/timepointicon.png; sourceTree = "<group>"; };
+		4CBE6DAE1006B38F007C26A4 /* buslisticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buslisticon.png; path = art/buslisticon.png; sourceTree = "<group>"; };
+		4CBE6E0D1006C133007C26A4 /* LocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInfo.h; sourceTree = "<group>"; };
+		4CBE6E0E1006C133007C26A4 /* LocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInfo.m; sourceTree = "<group>"; };
+		4CBE6E0F1006C133007C26A4 /* Timepoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timepoint.h; sourceTree = "<group>"; };
+		4CBE6E101006C133007C26A4 /* Timepoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timepoint.m; sourceTree = "<group>"; };
+		4CBE6E111006C133007C26A4 /* BusInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusInfo.h; sourceTree = "<group>"; };
+		4CBE6E121006C133007C26A4 /* BusInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusInfo.m; sourceTree = "<group>"; };
+		4CBE6E171006C152007C26A4 /* BGAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGAnnotationView.h; sourceTree = "<group>"; };
+		4CBE6E181006C152007C26A4 /* BGAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGAnnotationView.m; sourceTree = "<group>"; };
+		4CBE6E231006C192007C26A4 /* timepoints.dat */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = timepoints.dat; sourceTree = "<group>"; };
+		4CBE6E441006C1C6007C26A4 /* libSoapSupportLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoapSupportLib.a; path = "../SoapSupportLib/build/Debug-iphonesimulator/libSoapSupportLib.a"; sourceTree = SOURCE_ROOT; };
+		4CBE6E451006C1C6007C26A4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CBE6E471006C1C6007C26A4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CBE718B100A4C39007C26A4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4CBE718C100A4C39007C26A4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4CBE718D100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusDetector_SeattleAppDelegate.h; sourceTree = "<group>"; };
+		4CBE718E100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusDetector_SeattleAppDelegate.m; sourceTree = "<group>"; };
+		4CBE71BB100A4EB4007C26A4 /* BusInfoCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusInfoCollector.h; sourceTree = "<group>"; };
+		4CBE71BC100A4EB4007C26A4 /* BusInfoCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusInfoCollector.m; sourceTree = "<group>"; };
+		4CBE720F100AEEE8007C26A4 /* BGTimepointAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTimepointAnnotationView.h; sourceTree = "<group>"; };
+		4CBE7210100AEEE8007C26A4 /* BGTimepointAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTimepointAnnotationView.m; sourceTree = "<group>"; };
+		4CC844F01016603300BAB98B /* bus_with_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_with_dot.png; path = art/bus_with_dot.png; sourceTree = "<group>"; };
+		4CC84909101A227E00BAB98B /* DefaultsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultsCategory.h; sourceTree = "<group>"; };
+		4CC8490A101A227E00BAB98B /* DefaultsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultsCategory.m; sourceTree = "<group>"; };
+		4CC84914101A287200BAB98B /* MRCoordinateRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCoordinateRegion.h; sourceTree = "<group>"; };
+		4CC84915101A287200BAB98B /* MRCoordinateRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCoordinateRegion.m; sourceTree = "<group>"; };
+		4CCEF8FC101A97DE00EEBB32 /* BusListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusListViewController.h; sourceTree = "<group>"; };
+		4CCEF8FD101A97DE00EEBB32 /* BusListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusListViewController.m; sourceTree = "<group>"; };
+		4CCEF987101BAE2500EEBB32 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		4CCEFAB5101CFC6600EEBB32 /* FavoritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesController.h; sourceTree = "<group>"; };
+		4CCEFAB6101CFC6600EEBB32 /* FavoritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesController.m; sourceTree = "<group>"; };
+		4CCEFAB7101CFC6600EEBB32 /* FavoritesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesController.xib; sourceTree = "<group>"; };
+		4CCEFAD8101D25DB00EEBB32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* BusDetector_Seattle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BusDetector_Seattle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				4CBE6E481006C1C6007C26A4 /* libSoapSupportLib.a in Frameworks */,
+				4CBE6E491006C1C6007C26A4 /* MapKit.framework in Frameworks */,
+				4CBE6E4B1006C1C6007C26A4 /* CoreLocation.framework in Frameworks */,
+				4CCEFAD9101D25DB00EEBB32 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BusDetector-Seattle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BusDetector-Seattle */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE6E0C1006C133007C26A4 /* Model */,
+				4CBE7185100A4C1C007C26A4 /* Controllers */,
+				4CBE6E161006C152007C26A4 /* Views */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "BusDetector-Seattle";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE71BB100A4EB4007C26A4 /* BusInfoCollector.h */,
+				4CBE71BC100A4EB4007C26A4 /* BusInfoCollector.m */,
+				28A0AB4B0D9B1048005BE974 /* BusDetector_Seattle_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE6E231006C192007C26A4 /* timepoints.dat */,
+				4CBE6DAC1006B38F007C26A4 /* mapviewicon.png */,
+				4CC844F01016603300BAB98B /* bus_with_dot.png */,
+				4CBE6DAE1006B38F007C26A4 /* buslisticon.png */,
+				4CBE6DAD1006B38F007C26A4 /* timepointicon.png */,
+				4CCEF987101BAE2500EEBB32 /* MapView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* BusListView.xib */,
+				4CCEFAB7101CFC6600EEBB32 /* FavoritesController.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BusDetector_Seattle-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				4CBE6E451006C1C6007C26A4 /* MapKit.framework */,
+				4CBE6E471006C1C6007C26A4 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				4CBE6E441006C1C6007C26A4 /* libSoapSupportLib.a */,
+				4CCEFAD8101D25DB00EEBB32 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBE6E0C1006C133007C26A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CC84914101A287200BAB98B /* MRCoordinateRegion.h */,
+				4CC84915101A287200BAB98B /* MRCoordinateRegion.m */,
+				4C3BD0BA100FFF3C00543C08 /* TimepointEvent.h */,
+				4C3BD0BB100FFF3C00543C08 /* TimepointEvent.m */,
+				4CBE6E0D1006C133007C26A4 /* LocationInfo.h */,
+				4CBE6E0E1006C133007C26A4 /* LocationInfo.m */,
+				4CBE6E0F1006C133007C26A4 /* Timepoint.h */,
+				4CBE6E101006C133007C26A4 /* Timepoint.m */,
+				4CBE6E111006C133007C26A4 /* BusInfo.h */,
+				4CBE6E121006C133007C26A4 /* BusInfo.m */,
+				4CC84909101A227E00BAB98B /* DefaultsCategory.h */,
+				4CC8490A101A227E00BAB98B /* DefaultsCategory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CBE6E161006C152007C26A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE6E171006C152007C26A4 /* BGAnnotationView.h */,
+				4CBE6E181006C152007C26A4 /* BGAnnotationView.m */,
+				4CBE720F100AEEE8007C26A4 /* BGTimepointAnnotationView.h */,
+				4CBE7210100AEEE8007C26A4 /* BGTimepointAnnotationView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CBE7185100A4C1C007C26A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE718C100A4C39007C26A4 /* MapViewController.h */,
+				4CBE718B100A4C39007C26A4 /* MapViewController.m */,
+				4CCEF8FC101A97DE00EEBB32 /* BusListViewController.h */,
+				4CCEF8FD101A97DE00EEBB32 /* BusListViewController.m */,
+				4CBE718D100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.h */,
+				4CBE718E100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.m */,
+				4CCEFAB5101CFC6600EEBB32 /* FavoritesController.h */,
+				4CCEFAB6101CFC6600EEBB32 /* FavoritesController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BusDetector-Seattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BusDetector-Seattle" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusDetector-Seattle";
+			productName = "BusDetector-Seattle";
+			productReference = 1D6058910D05DD3D006BFB54 /* BusDetector-Seattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BusDetector-Seattle" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BusDetector-Seattle */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BusDetector-Seattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* BusListView.xib in Resources */,
+				4CBE6DAF1006B38F007C26A4 /* mapviewicon.png in Resources */,
+				4CBE6DB01006B38F007C26A4 /* timepointicon.png in Resources */,
+				4CBE6DB11006B38F007C26A4 /* buslisticon.png in Resources */,
+				4CBE6E241006C192007C26A4 /* timepoints.dat in Resources */,
+				4CC844F11016603300BAB98B /* bus_with_dot.png in Resources */,
+				4CCEF988101BAE2500EEBB32 /* MapView.xib in Resources */,
+				4CCEFAB9101CFC6600EEBB32 /* FavoritesController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				4CBE6E131006C133007C26A4 /* LocationInfo.m in Sources */,
+				4CBE6E141006C133007C26A4 /* Timepoint.m in Sources */,
+				4CBE6E151006C133007C26A4 /* BusInfo.m in Sources */,
+				4CBE6E191006C152007C26A4 /* BGAnnotationView.m in Sources */,
+				4CBE718F100A4C39007C26A4 /* MapViewController.m in Sources */,
+				4CBE7190100A4C39007C26A4 /* BusDetector_SeattleAppDelegate.m in Sources */,
+				4CBE71BD100A4EB4007C26A4 /* BusInfoCollector.m in Sources */,
+				4CBE7211100AEEE8007C26A4 /* BGTimepointAnnotationView.m in Sources */,
+				4C3BD0BC100FFF3C00543C08 /* TimepointEvent.m in Sources */,
+				4CC8490B101A227E00BAB98B /* DefaultsCategory.m in Sources */,
+				4CC84916101A287200BAB98B /* MRCoordinateRegion.m in Sources */,
+				4CCEF8FE101A97DE00EEBB32 /* BusListViewController.m in Sources */,
+				4CCEFAB8101CFC6600EEBB32 /* FavoritesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BusDetector_Seattle_Prefix.pch;
+				INFOPLIST_FILE = "BusDetector_Seattle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SoapSupportLib/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "BusDetector-Seattle";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BusDetector_Seattle_Prefix.pch;
+				INFOPLIST_FILE = "BusDetector_Seattle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SoapSupportLib/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "BusDetector-Seattle";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Rockhold (D2464NT9W8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../SoapSupportLib/Headers";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Rockhold (D2464NT9W8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../SoapSupportLib/Headers";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BusDetector-Seattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BusDetector-Seattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
